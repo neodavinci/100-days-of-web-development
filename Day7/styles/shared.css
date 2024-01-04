@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: rgb(233, 215, 207);
+    margin : 50px;
+    color: rgb(107, 107, 107);
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    /* text-align: center; */
+  }
+  
+  h1 {
+    font-family: "Oswald", sans-serif;
+    /* text-align: center; */
+    /* color: red; */
+  }
+
+  p {
+    font-family: "Fira Sans", sans-serif;
+    /* text-align: center; */
+    /* color: rgb(255, 0, 0); */
+
+    /* p태크 전체에 영향. */
+    /* margin-bottom: 125px; */
+  }
+  a {
+    color: rgb(4, 0, 255);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #todays-challenge {
+    color: rgb(170, 96, 83);
+    font-weight: bold;
+    font-size: 52px;
+  }
+  

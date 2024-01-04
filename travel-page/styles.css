@@ -1,0 +1,131 @@
+#hero {
+  height: 800px;
+  background-image: url("/images/ocean.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 900px;
+  height: 250px;
+  background-color: rgba(51, 47, 47, 0.7);
+  box-shadow: 2px 4xp 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px, 0px;
+  margin: 10px auto;
+  position: relative;
+  top: 200px;
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 30px 5px 5px 5px;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgb(255, 251, 0);
+}
+
+/* #container {
+    background-color: rgb(82, 23, 81);
+    padding: 10px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    background-color: rgb(211, 88, 209);
+    margin: 10px;
+    width: 250px;
+}
+
+ul {
+    background-color: rgb(250, 146, 63);
+    list-style: none;
+    width: 250px;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    background-color: rgb(211, 219, 58);
+    width: 100px;
+    text-align: right;
+} */
+
+.destination a:hover {
+  background-color: rgb(255, 238, 0);
+} 
+
+#highlights {
+    padding: 24px;
+    /* background-color: rgb(227, 255, 253); */
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243,240));
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0px;
+}
+
+#destinations {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.destination {
+    margin: 0px 20px;
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0px;
+}
+
+.destination img {
+  height: 200px;
+  width: 250px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination strong {
+    color: rgb(0, 160, 17);
+}
